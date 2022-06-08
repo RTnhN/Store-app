@@ -5,3 +5,8 @@
   text-decoration: none;
   color: black;
 }
+
+.NameCard>img{
+  width: 50%;
+  aspect-ratio: 1 / 1;
+}

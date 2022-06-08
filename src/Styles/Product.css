@@ -1,0 +1,55 @@
+#product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(255, 242, 226);
+}
+
+#productBody{
+  min-height: 100vh;
+  width: var(--page-width);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, max-content) 1fr;
+  grid-template-areas:
+  'backButton productName productName productName .'
+  'productImage productImage . productDesc productDesc '
+  'productImage productImage . productPrice . '
+  'productImage productImage . addToCartButton . '
+  'productImage productImage . qtyContainer . '
+  '. . . . . ';
+
+}
+
+#productBackLink{
+  grid-area: backButton;
+}
+
+#productTitle{
+  grid-area: productName;
+  justify-self: center;
+}
+#productDesc{
+  grid-area: productDesc;
+}
+
+#productPrice{
+  grid-area: productPrice;
+}
+
+.carousel-root{
+  grid-area: productImage;
+}
+
+#addToCartButton{
+  grid-area: addToCartButton;
+}
+#qtyContainer{
+  grid-area: qtyContainer;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+}

@@ -8,32 +8,6 @@ import '../../Styles/Home.css'
 class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.hotProducts = [
-      {
-        id: 1,
-        name: "Product 1",
-        img: "https://via.placeholder.com/150",
-        imgAlt: "Product 1"
-      },
-      {
-        id: 2,
-        name: "Product 2",
-        img: "https://via.placeholder.com/150",
-        imgAlt: "Product 2"
-      },
-      {
-        id: 3,
-        name: "Product 3",
-        img: "https://via.placeholder.com/150",
-        imgAlt: "Product 3"
-      },
-      {
-        id: 4,
-        name: "Product 4",
-        img: "https://via.placeholder.com/150",
-        imgAlt: "Product 4"
-      }
-    ]
   }
   render() {
 
@@ -44,9 +18,9 @@ class Home extends React.Component {
           <h1 id='homeTitle'> Buy Stuff Here</h1>
           <p id='homeDesc'>We have a variety of things that you could live without</p>
           <div id="homeHotProducts">
-            {this.hotProducts.map((product) => {
+            {this.props.hotProducts.map((product) => {
               return (
-                <NameCard key={product.id} id={product.id} img={product.img} imgAlt={product.imgAlt} name={product.name} />
+                <NameCard key={product.id} id={product.id} img={product.img[0]} imgAlt={product.name} name={product.name} />
               )
             })}
           </div>

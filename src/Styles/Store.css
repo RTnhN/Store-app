@@ -1,8 +1,8 @@
 #store{
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
   height: 100%;
   background-color: rgb(255, 242, 226);
 }
@@ -21,11 +21,12 @@
 }
 
 #storeProducts{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   width: var(--page-width);
   background-color: rgb(255, 242, 226);
   gap: 2rem;
