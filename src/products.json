@@ -1,0 +1,902 @@
+[
+  {
+    "color": "teal",
+    "department": "Garden",
+    "productName": "Gorgeous Concrete Keyboard",
+    "price": "661.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Concrete",
+    "product": "Chair"
+  },
+  {
+    "color": "black",
+    "department": "Automotive",
+    "productName": "Handmade Fresh Towels",
+    "price": "393.00",
+    "productAdjective": "Awesome",
+    "productMaterial": "Cotton",
+    "product": "Soap"
+  },
+  {
+    "color": "magenta",
+    "department": "Garden",
+    "productName": "Practical Cotton Chair",
+    "price": "413.00",
+    "productAdjective": "Awesome",
+    "productMaterial": "Fresh",
+    "product": "Hat"
+  },
+  {
+    "color": "teal",
+    "department": "Grocery",
+    "productName": "Handcrafted Concrete Car",
+    "price": "784.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Granite",
+    "product": "Chips"
+  },
+  {
+    "color": "blue",
+    "department": "Clothing",
+    "productName": "Handcrafted Cotton Keyboard",
+    "price": "786.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Frozen",
+    "product": "Bacon"
+  },
+  {
+    "color": "ivory",
+    "department": "Kids",
+    "productName": "Refined Steel Fish",
+    "price": "71.00",
+    "productAdjective": "Gorgeous",
+    "productMaterial": "Wooden",
+    "product": "Fish"
+  },
+  {
+    "color": "grey",
+    "department": "Movies",
+    "productName": "Tasty Soft Bike",
+    "price": "137.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Concrete",
+    "product": "Towels"
+  },
+  {
+    "color": "cyan",
+    "department": "Sports",
+    "productName": "Ergonomic Fresh Tuna",
+    "price": "919.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Granite",
+    "product": "Pants"
+  },
+  {
+    "color": "salmon",
+    "department": "Games",
+    "productName": "Rustic Steel Chair",
+    "price": "818.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Cotton",
+    "product": "Chair"
+  },
+  {
+    "color": "white",
+    "department": "Kids",
+    "productName": "Intelligent Steel Chips",
+    "price": "993.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Concrete",
+    "product": "Table"
+  },
+  {
+    "color": "magenta",
+    "department": "Computers",
+    "productName": "Rustic Cotton Shoes",
+    "price": "626.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Granite",
+    "product": "Keyboard"
+  },
+  {
+    "color": "cyan",
+    "department": "Games",
+    "productName": "Handmade Concrete Sausages",
+    "price": "536.00",
+    "productAdjective": "Generic",
+    "productMaterial": "Steel",
+    "product": "Cheese"
+  },
+  {
+    "color": "plum",
+    "department": "Music",
+    "productName": "Handmade Metal Car",
+    "price": "385.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Rubber",
+    "product": "Fish"
+  },
+  {
+    "color": "blue",
+    "department": "Tools",
+    "productName": "Handmade Plastic Fish",
+    "price": "170.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Wooden",
+    "product": "Bike"
+  },
+  {
+    "color": "lavender",
+    "department": "Shoes",
+    "productName": "Handmade Frozen Mouse",
+    "price": "370.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Metal",
+    "product": "Bike"
+  },
+  {
+    "color": "gold",
+    "department": "Garden",
+    "productName": "Fantastic Metal Car",
+    "price": "137.00",
+    "productAdjective": "Generic",
+    "productMaterial": "Wooden",
+    "product": "Chips"
+  },
+  {
+    "color": "azure",
+    "department": "Books",
+    "productName": "Practical Wooden Computer",
+    "price": "109.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Metal",
+    "product": "Fish"
+  },
+  {
+    "color": "salmon",
+    "department": "Kids",
+    "productName": "Ergonomic Wooden Salad",
+    "price": "193.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Soft",
+    "product": "Bike"
+  },
+  {
+    "color": "yellow",
+    "department": "Tools",
+    "productName": "Licensed Frozen Pants",
+    "price": "709.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Wooden",
+    "product": "Computer"
+  },
+  {
+    "color": "turquoise",
+    "department": "Grocery",
+    "productName": "Handmade Plastic Keyboard",
+    "price": "134.00",
+    "productAdjective": "Intelligent",
+    "productMaterial": "Wooden",
+    "product": "Keyboard"
+  },
+  {
+    "color": "grey",
+    "department": "Grocery",
+    "productName": "Intelligent Wooden Chicken",
+    "price": "964.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Fresh",
+    "product": "Hat"
+  },
+  {
+    "color": "violet",
+    "department": "Computers",
+    "productName": "Ergonomic Wooden Chicken",
+    "price": "788.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Plastic",
+    "product": "Car"
+  },
+  {
+    "color": "turquoise",
+    "department": "Beauty",
+    "productName": "Practical Steel Ball",
+    "price": "990.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Frozen",
+    "product": "Chair"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Movies",
+    "productName": "Unbranded Soft Computer",
+    "price": "40.00",
+    "productAdjective": "Generic",
+    "productMaterial": "Cotton",
+    "product": "Salad"
+  },
+  {
+    "color": "maroon",
+    "department": "Computers",
+    "productName": "Handmade Fresh Soap",
+    "price": "904.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Wooden",
+    "product": "Ball"
+  },
+  {
+    "color": "ivory",
+    "department": "Toys",
+    "productName": "Tasty Fresh Shirt",
+    "price": "295.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Soft",
+    "product": "Pizza"
+  },
+  {
+    "color": "mint green",
+    "department": "Grocery",
+    "productName": "Intelligent Fresh Tuna",
+    "price": "95.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Fresh",
+    "product": "Mouse"
+  },
+  {
+    "color": "tan",
+    "department": "Garden",
+    "productName": "Sleek Metal Shoes",
+    "price": "32.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Granite",
+    "product": "Cheese"
+  },
+  {
+    "color": "white",
+    "department": "Outdoors",
+    "productName": "Tasty Wooden Pants",
+    "price": "609.00",
+    "productAdjective": "Tasty",
+    "productMaterial": "Cotton",
+    "product": "Bike"
+  },
+  {
+    "color": "azure",
+    "department": "Home",
+    "productName": "Unbranded Soft Sausages",
+    "price": "136.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Granite",
+    "product": "Pants"
+  },
+  {
+    "color": "orange",
+    "department": "Baby",
+    "productName": "Generic Soft Cheese",
+    "price": "652.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Cotton",
+    "product": "Sausages"
+  },
+  {
+    "color": "ivory",
+    "department": "Health",
+    "productName": "Tasty Cotton Keyboard",
+    "price": "968.00",
+    "productAdjective": "Small",
+    "productMaterial": "Wooden",
+    "product": "Soap"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Kids",
+    "productName": "Ergonomic Wooden Shirt",
+    "price": "763.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Steel",
+    "product": "Pants"
+  },
+  {
+    "color": "indigo",
+    "department": "Baby",
+    "productName": "Refined Soft Gloves",
+    "price": "234.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Frozen",
+    "product": "Tuna"
+  },
+  {
+    "color": "red",
+    "department": "Books",
+    "productName": "Fantastic Wooden Bacon",
+    "price": "324.00",
+    "productAdjective": "Handmade",
+    "productMaterial": "Wooden",
+    "product": "Ball"
+  },
+  {
+    "color": "turquoise",
+    "department": "Games",
+    "productName": "Incredible Concrete Sausages",
+    "price": "836.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Cotton",
+    "product": "Fish"
+  },
+  {
+    "color": "purple",
+    "department": "Toys",
+    "productName": "Practical Wooden Tuna",
+    "price": "15.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Steel",
+    "product": "Chips"
+  },
+  {
+    "color": "black",
+    "department": "Shoes",
+    "productName": "Awesome Steel Hat",
+    "price": "851.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Concrete",
+    "product": "Pizza"
+  },
+  {
+    "color": "grey",
+    "department": "Health",
+    "productName": "Unbranded Granite Chicken",
+    "price": "469.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Frozen",
+    "product": "Chips"
+  },
+  {
+    "color": "olive",
+    "department": "Automotive",
+    "productName": "Ergonomic Granite Chair",
+    "price": "811.00",
+    "productAdjective": "Intelligent",
+    "productMaterial": "Concrete",
+    "product": "Hat"
+  },
+  {
+    "color": "orange",
+    "department": "Tools",
+    "productName": "Fantastic Steel Ball",
+    "price": "227.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Metal",
+    "product": "Cheese"
+  },
+  {
+    "color": "purple",
+    "department": "Outdoors",
+    "productName": "Intelligent Granite Pants",
+    "price": "535.00",
+    "productAdjective": "Intelligent",
+    "productMaterial": "Granite",
+    "product": "Bacon"
+  },
+  {
+    "color": "olive",
+    "department": "Beauty",
+    "productName": "Practical Frozen Sausages",
+    "price": "44.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Fresh",
+    "product": "Mouse"
+  },
+  {
+    "color": "teal",
+    "department": "Tools",
+    "productName": "Small Soft Shirt",
+    "price": "382.00",
+    "productAdjective": "Intelligent",
+    "productMaterial": "Soft",
+    "product": "Hat"
+  },
+  {
+    "color": "magenta",
+    "department": "Computers",
+    "productName": "Awesome Cotton Salad",
+    "price": "443.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Frozen",
+    "product": "Mouse"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Jewelery",
+    "productName": "Intelligent Wooden Gloves",
+    "price": "733.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Plastic",
+    "product": "Keyboard"
+  },
+  {
+    "color": "lavender",
+    "department": "Outdoors",
+    "productName": "Gorgeous Granite Computer",
+    "price": "819.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Steel",
+    "product": "Fish"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Baby",
+    "productName": "Awesome Frozen Chicken",
+    "price": "540.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Metal",
+    "product": "Car"
+  },
+  {
+    "color": "salmon",
+    "department": "Garden",
+    "productName": "Rustic Soft Shoes",
+    "price": "640.00",
+    "productAdjective": "Unbranded",
+    "productMaterial": "Granite",
+    "product": "Car"
+  },
+  {
+    "color": "ivory",
+    "department": "Computers",
+    "productName": "Incredible Granite Chair",
+    "price": "907.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Metal",
+    "product": "Mouse"
+  },
+  {
+    "color": "orchid",
+    "department": "Beauty",
+    "productName": "Fantastic Concrete Tuna",
+    "price": "890.00",
+    "productAdjective": "Gorgeous",
+    "productMaterial": "Granite",
+    "product": "Soap"
+  },
+  {
+    "color": "turquoise",
+    "department": "Computers",
+    "productName": "Licensed Rubber Shirt",
+    "price": "170.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Concrete",
+    "product": "Soap"
+  },
+  {
+    "color": "orange",
+    "department": "Jewelery",
+    "productName": "Tasty Fresh Sausages",
+    "price": "854.00",
+    "productAdjective": "Awesome",
+    "productMaterial": "Cotton",
+    "product": "Hat"
+  },
+  {
+    "color": "red",
+    "department": "Games",
+    "productName": "Intelligent Granite Gloves",
+    "price": "268.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Wooden",
+    "product": "Bacon"
+  },
+  {
+    "color": "violet",
+    "department": "Kids",
+    "productName": "Rustic Rubber Shoes",
+    "price": "135.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Concrete",
+    "product": "Computer"
+  },
+  {
+    "color": "lime",
+    "department": "Tools",
+    "productName": "Ergonomic Fresh Bacon",
+    "price": "885.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Steel",
+    "product": "Pizza"
+  },
+  {
+    "color": "white",
+    "department": "Baby",
+    "productName": "Rustic Plastic Salad",
+    "price": "12.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Wooden",
+    "product": "Shirt"
+  },
+  {
+    "color": "violet",
+    "department": "Industrial",
+    "productName": "Gorgeous Concrete Cheese",
+    "price": "243.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Wooden",
+    "product": "Chicken"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Jewelery",
+    "productName": "Handcrafted Frozen Computer",
+    "price": "392.00",
+    "productAdjective": "Intelligent",
+    "productMaterial": "Frozen",
+    "product": "Tuna"
+  },
+  {
+    "color": "pink",
+    "department": "Grocery",
+    "productName": "Refined Frozen Pants",
+    "price": "336.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Metal",
+    "product": "Tuna"
+  },
+  {
+    "color": "sky blue",
+    "department": "Home",
+    "productName": "Handcrafted Wooden Pants",
+    "price": "18.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Cotton",
+    "product": "Chair"
+  },
+  {
+    "color": "pink",
+    "department": "Beauty",
+    "productName": "Gorgeous Fresh Car",
+    "price": "481.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Fresh",
+    "product": "Gloves"
+  },
+  {
+    "color": "cyan",
+    "department": "Toys",
+    "productName": "Rustic Wooden Sausages",
+    "price": "221.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Metal",
+    "product": "Shoes"
+  },
+  {
+    "color": "maroon",
+    "department": "Toys",
+    "productName": "Awesome Soft Hat",
+    "price": "159.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Steel",
+    "product": "Keyboard"
+  },
+  {
+    "color": "orchid",
+    "department": "Tools",
+    "productName": "Awesome Metal Shirt",
+    "price": "255.00",
+    "productAdjective": "Incredible",
+    "productMaterial": "Plastic",
+    "product": "Tuna"
+  },
+  {
+    "color": "plum",
+    "department": "Sports",
+    "productName": "Ergonomic Soft Bacon",
+    "price": "100.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Metal",
+    "product": "Keyboard"
+  },
+  {
+    "color": "purple",
+    "department": "Music",
+    "productName": "Rustic Granite Pizza",
+    "price": "171.00",
+    "productAdjective": "Rustic",
+    "productMaterial": "Cotton",
+    "product": "Bacon"
+  },
+  {
+    "color": "salmon",
+    "department": "Automotive",
+    "productName": "Handmade Frozen Table",
+    "price": "852.00",
+    "productAdjective": "Handmade",
+    "productMaterial": "Metal",
+    "product": "Sausages"
+  },
+  {
+    "color": "olive",
+    "department": "Computers",
+    "productName": "Tasty Soft Salad",
+    "price": "689.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Wooden",
+    "product": "Computer"
+  },
+  {
+    "color": "plum",
+    "department": "Movies",
+    "productName": "Gorgeous Steel Bike",
+    "price": "249.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Wooden",
+    "product": "Computer"
+  },
+  {
+    "color": "magenta",
+    "department": "Shoes",
+    "productName": "Ergonomic Granite Soap",
+    "price": "24.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Concrete",
+    "product": "Chips"
+  },
+  {
+    "color": "lavender",
+    "department": "Beauty",
+    "productName": "Incredible Granite Computer",
+    "price": "974.00",
+    "productAdjective": "Unbranded",
+    "productMaterial": "Metal",
+    "product": "Bike"
+  },
+  {
+    "color": "maroon",
+    "department": "Sports",
+    "productName": "Rustic Metal Pants",
+    "price": "555.00",
+    "productAdjective": "Unbranded",
+    "productMaterial": "Cotton",
+    "product": "Mouse"
+  },
+  {
+    "color": "lime",
+    "department": "Home",
+    "productName": "Intelligent Wooden Pants",
+    "price": "351.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Cotton",
+    "product": "Computer"
+  },
+  {
+    "color": "mint green",
+    "department": "Tools",
+    "productName": "Fantastic Soft Cheese",
+    "price": "775.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Steel",
+    "product": "Bacon"
+  },
+  {
+    "color": "sky blue",
+    "department": "Games",
+    "productName": "Incredible Wooden Chips",
+    "price": "705.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Granite",
+    "product": "Pants"
+  },
+  {
+    "color": "purple",
+    "department": "Outdoors",
+    "productName": "Tasty Plastic Towels",
+    "price": "424.00",
+    "productAdjective": "Handmade",
+    "productMaterial": "Fresh",
+    "product": "Soap"
+  },
+  {
+    "color": "lavender",
+    "department": "Kids",
+    "productName": "Tasty Metal Ball",
+    "price": "458.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Granite",
+    "product": "Hat"
+  },
+  {
+    "color": "grey",
+    "department": "Home",
+    "productName": "Practical Rubber Table",
+    "price": "443.00",
+    "productAdjective": "Awesome",
+    "productMaterial": "Rubber",
+    "product": "Tuna"
+  },
+  {
+    "color": "olive",
+    "department": "Automotive",
+    "productName": "Practical Steel Chips",
+    "price": "7.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Concrete",
+    "product": "Computer"
+  },
+  {
+    "color": "lavender",
+    "department": "Books",
+    "productName": "Unbranded Concrete Bacon",
+    "price": "604.00",
+    "productAdjective": "Unbranded",
+    "productMaterial": "Rubber",
+    "product": "Cheese"
+  },
+  {
+    "color": "silver",
+    "department": "Grocery",
+    "productName": "Small Steel Bike",
+    "price": "999.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Soft",
+    "product": "Pizza"
+  },
+  {
+    "color": "black",
+    "department": "Home",
+    "productName": "Generic Fresh Bike",
+    "price": "898.00",
+    "productAdjective": "Tasty",
+    "productMaterial": "Soft",
+    "product": "Bacon"
+  },
+  {
+    "color": "indigo",
+    "department": "Baby",
+    "productName": "Generic Plastic Mouse",
+    "price": "920.00",
+    "productAdjective": "Tasty",
+    "productMaterial": "Fresh",
+    "product": "Soap"
+  },
+  {
+    "color": "black",
+    "department": "Health",
+    "productName": "Awesome Metal Table",
+    "price": "754.00",
+    "productAdjective": "Gorgeous",
+    "productMaterial": "Fresh",
+    "product": "Cheese"
+  },
+  {
+    "color": "olive",
+    "department": "Grocery",
+    "productName": "Refined Plastic Bacon",
+    "price": "614.00",
+    "productAdjective": "Handmade",
+    "productMaterial": "Metal",
+    "product": "Gloves"
+  },
+  {
+    "color": "turquoise",
+    "department": "Jewelery",
+    "productName": "Small Frozen Fish",
+    "price": "533.00",
+    "productAdjective": "Generic",
+    "productMaterial": "Granite",
+    "product": "Cheese"
+  },
+  {
+    "color": "turquoise",
+    "department": "Automotive",
+    "productName": "Intelligent Soft Chair",
+    "price": "238.00",
+    "productAdjective": "Awesome",
+    "productMaterial": "Wooden",
+    "product": "Chips"
+  },
+  {
+    "color": "grey",
+    "department": "Games",
+    "productName": "Small Wooden Towels",
+    "price": "704.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Concrete",
+    "product": "Keyboard"
+  },
+  {
+    "color": "turquoise",
+    "department": "Grocery",
+    "productName": "Sleek Frozen Pizza",
+    "price": "970.00",
+    "productAdjective": "Ergonomic",
+    "productMaterial": "Metal",
+    "product": "Table"
+  },
+  {
+    "color": "turquoise",
+    "department": "Industrial",
+    "productName": "Generic Frozen Chips",
+    "price": "573.00",
+    "productAdjective": "Fantastic",
+    "productMaterial": "Cotton",
+    "product": "Soap"
+  },
+  {
+    "color": "lime",
+    "department": "Automotive",
+    "productName": "Tasty Soft Shoes",
+    "price": "675.00",
+    "productAdjective": "Tasty",
+    "productMaterial": "Fresh",
+    "product": "Shirt"
+  },
+  {
+    "color": "orchid",
+    "department": "Computers",
+    "productName": "Fantastic Granite Car",
+    "price": "406.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Wooden",
+    "product": "Computer"
+  },
+  {
+    "color": "fuchsia",
+    "department": "Shoes",
+    "productName": "Licensed Wooden Cheese",
+    "price": "939.00",
+    "productAdjective": "Handcrafted",
+    "productMaterial": "Plastic",
+    "product": "Keyboard"
+  },
+  {
+    "color": "blue",
+    "department": "Grocery",
+    "productName": "Small Wooden Towels",
+    "price": "147.00",
+    "productAdjective": "Refined",
+    "productMaterial": "Steel",
+    "product": "Keyboard"
+  },
+  {
+    "color": "orchid",
+    "department": "Outdoors",
+    "productName": "Sleek Frozen Ball",
+    "price": "331.00",
+    "productAdjective": "Licensed",
+    "productMaterial": "Metal",
+    "product": "Salad"
+  },
+  {
+    "color": "cyan",
+    "department": "Books",
+    "productName": "Ergonomic Cotton Ball",
+    "price": "309.00",
+    "productAdjective": "Gorgeous",
+    "productMaterial": "Concrete",
+    "product": "Pizza"
+  },
+  {
+    "color": "white",
+    "department": "Computers",
+    "productName": "Fantastic Rubber Shirt",
+    "price": "458.00",
+    "productAdjective": "Generic",
+    "productMaterial": "Cotton",
+    "product": "Tuna"
+  },
+  {
+    "color": "orchid",
+    "department": "Baby",
+    "productName": "Intelligent Granite Bike",
+    "price": "194.00",
+    "productAdjective": "Sleek",
+    "productMaterial": "Plastic",
+    "product": "Pizza"
+  },
+  {
+    "color": "red",
+    "department": "Garden",
+    "productName": "Gorgeous Soft Keyboard",
+    "price": "941.00",
+    "productAdjective": "Practical",
+    "productMaterial": "Fresh",
+    "product": "Pants"
+  }
+]

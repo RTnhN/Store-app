@@ -1,0 +1,35 @@
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: max(100%, 100vh);
+  background-color: rgb(255, 242, 226);
+}
+
+#homeBody{
+  width: var(--page-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex:1;
+}
+
+#homeBody>a{
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#homeHotProducts{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: var(--page-width);
+  background-color: rgb(255, 242, 226);
+  gap: 2rem;
+}
+
