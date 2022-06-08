@@ -2,7 +2,7 @@ import React from 'react'
 import '../../Styles/App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from '../Home/Home';
-// import Store from '../Store/Store';
+import Store from '../Store/Store';
 // import Cart from '../Cart/Cart';
 // import Contact from '../Contact/Contact';
 
@@ -15,7 +15,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          {/* <Route path='store' element={<Store />} > */}
+          <Route path='store' element={<Store />} />
             {/* <Route path=':productId' element={<Item />} /> */}
           {/* </Route> */}
           {/* <Route path='cart' element={<Cart />} /> */}
