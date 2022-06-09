@@ -30,9 +30,9 @@ class Product extends React.Component {
           <p id="productPrice">{this.props.product.price}</p>
           <button onClick={this.props.addToCart} id='addToCartButton' data-product-id={this.props.product.id}>Add to Cart</button>
           <div id='qtyContainer'>
-            <button onClick={this.props.decQuantity} className='material-symbols-outlined'>remove</button>
-            <p>{this.props.qty}</p>
             <button onClick={this.props.incQuantity} className='material-symbols-outlined'>add</button>
+            <p>{this.props.qty}</p>
+            <button onClick={this.props.decQuantity} className='material-symbols-outlined'>remove</button>
           </div>
         </div>
         <Footer />
