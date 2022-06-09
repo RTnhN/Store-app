@@ -89,9 +89,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
         <Routes>
-          <Route path='/' element={<Home hotProducts={data.slice(0,3)} itemsInCart={this.state.itemsInCart} />} />
+          <Route path='' element={<Home hotProducts={data.slice(0,3)} itemsInCart={this.state.itemsInCart} />} />
           <Route path='/store/:productId' element={<MakeProduct data={data} qty={this.state.qty} incQuantity={this.incQuantity} decQuantity={this.decQuantity} addToCart={this.addToCart} resetQuantity={this.resetQuantity} itemsInCart={this.state.itemsInCart} />} />
           <Route path='store' element={<Store data={data} itemsInCart={this.state.itemsInCart} />} /> 
           <Route path='cart' element={<MakeCart cart={this.state.cart} data={data} removeFromCart={this.removeFromCart} incItem={this.incItem} decItem={this.decItem} itemsInCart={this.state.itemsInCart} />} />
