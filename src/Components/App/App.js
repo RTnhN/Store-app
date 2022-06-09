@@ -23,6 +23,7 @@ class App extends React.Component {
     this.removeFromCart = this.removeFromCart.bind(this)
     this.incItem = this.incItem.bind(this)
     this.decItem = this.decItem.bind(this)
+    this.setQuantity = this.setQuantity.bind(this)
   }
 
   incQuantity() {
@@ -35,6 +36,15 @@ class App extends React.Component {
     if (this.state.qty > 1) {
       this.setState({
         qty: this.state.qty - 1
+      })
+    }
+  }
+
+  setQuantity(event) {
+    if (!Number.isNaN(Number(event.target.value))) {
+      const qty = event.target.value === '' ? "" : Number(event.target.value)
+      this.setState({
+        qty: qty === 0 ? 1 : qty
       })
     }
   }
