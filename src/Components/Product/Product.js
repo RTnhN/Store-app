@@ -9,24 +9,16 @@ import "../../Styles/Product.css"
 class Product extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {qty: 1};
-    this.incrementQty = this.incrementQty.bind(this);
-    this.decrementQty = this.decrementQty.bind(this);
   }
 
-  incrementQty() {
-    this.setState({qty: this.state.qty + 1});
+  componentWillUnmount() {
+    this.props.resetQuantity();
   }
 
-  decrementQty() {  
-    if (this.state.qty > 1) {
-      this.setState({qty: this.state.qty - 1});
-    }
-  }
 
   render() {
     return (
-      <div id="product">
+      <div id="product" >
         <Header />
         <div id="productBody">
           <Link id="productBackLink" to="/store">Back to Store</Link>
@@ -40,11 +32,11 @@ class Product extends React.Component {
           </Carousel>
           <p id="productDesc">{this.props.product.desc}</p>
           <p id="productPrice">{this.props.product.price}</p>
-          <button id='addToCartButton'>Add to Cart</button>
+          <button onClick={this.props.addToCart} id='addToCartButton' data-product-id={this.props.product.id}>Add to Cart</button>
           <div id='qtyContainer'>
-            <button onClick={this.decrementQty} className='material-symbols-outlined'>remove</button>
-            <p>{this.state.qty}</p>
-            <button onClick={this.incrementQty} className='material-symbols-outlined'>add</button>
+            <button onClick={this.props.decQuantity} className='material-symbols-outlined'>remove</button>
+            <p>{this.props.qty}</p>
+            <button onClick={this.props.incQuantity} className='material-symbols-outlined'>add</button>
           </div>
         </div>
         <Footer />
