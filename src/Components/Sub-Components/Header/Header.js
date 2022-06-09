@@ -6,12 +6,10 @@ function Header(props) {
   let itemsInCart;
   if (props.itemsInCart < 1) {
     itemsInCart = "";
-  } else if (props.itemsInCart === 1) {
-    itemsInCart = '1 item in cart';
-  } else if (props.itemsInCart >= 1 && props.itemsInCart <= 9) {
-    itemsInCart = `${props.itemsInCart} items in cart`;
+  } else if (props.itemsInCart >= 1 && props.itemsInCart < 9) {
+    itemsInCart = `${props.itemsInCart}`;
   } else {
-    itemsInCart = "9+ items in cart";
+    itemsInCart = "9+";
   }
 
   return (
