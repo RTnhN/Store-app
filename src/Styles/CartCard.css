@@ -1,0 +1,51 @@
+.cartItem{
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "image name"
+    "image priceQty";
+  padding: 1rem;
+  column-gap: 1rem;
+}
+
+.cartCardImg{
+  grid-area: image;
+  width: 10rem;
+  height: 10rem;
+}
+
+.cartCardImg>img{
+  width: 100%;
+  height: 100%;
+}
+
+.cartCardTitle{
+  grid-area: name;
+}
+.cartCardQtyPriceContainer{
+  grid-area: priceQty;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap:1rem;
+  align-items: center;
+}
+.cartCardQtyButton{
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background: none;
+  font-size: 1rem;
+  color: black;
+  cursor: pointer;
+}
+
+.cartCardRemoveButton{
+  height: 2rem;
+  border:none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
