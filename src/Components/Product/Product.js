@@ -19,7 +19,7 @@ class Product extends React.Component {
   render() {
     return (
       <div id="product" >
-        <Header />
+        <Header itemsInCart={this.props.itemsInCart}/>
         <div id="productBody">
           <Link id="productBackLink" to="/store">Back to Store</Link>
           <h1 id="productTitle">{this.props.product.name}</h1>

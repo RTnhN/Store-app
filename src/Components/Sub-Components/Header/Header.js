@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom';
 import '../../../Styles/Header.css';
 
 function Header(props) {
+  let itemsInCart;
+  if (props.itemsInCart < 1) {
+    itemsInCart = "";
+  } else if (props.itemsInCart === 1) {
+    itemsInCart = '1 item in cart';
+  } else if (props.itemsInCart >= 1 && props.itemsInCart <= 9) {
+    itemsInCart = `${props.itemsInCart} items in cart`;
+  } else {
+    itemsInCart = "9+ items in cart";
+  }
+
   return (
     <header id='header'>
       <div id='headerSubcontainer'>
@@ -16,7 +27,7 @@ function Header(props) {
       </nav>
       <Link to='/Cart'>
         <span>Cart</span>
-        <span className='material-symbols-outlined'>shopping_cart</span>  
+        <span id='cartIcon' className='material-symbols-outlined' value={itemsInCart}>shopping_cart</span>  
       </Link>
       </div>
     </header>

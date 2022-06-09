@@ -13,7 +13,7 @@ class Home extends React.Component {
 
     return (
       <div id='home'>
-        <Header />
+        <Header itemsInCart={this.props.itemsInCart}/>
         <div id='homeBody'>
           <h1 id='homeTitle'> Buy Stuff Here</h1>
           <p id='homeDesc'>We have a variety of things that you could live without</p>
