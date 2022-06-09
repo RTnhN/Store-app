@@ -7,10 +7,6 @@ import { Carousel } from 'react-responsive-carousel';
 import "../../Styles/Product.css"
 
 class Product extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentWillUnmount() {
     this.props.resetQuantity();
   }
@@ -26,7 +22,7 @@ class Product extends React.Component {
           <Carousel>
             {this.props.product.img.map((img, index) => {return(
               <div key={index}>
-                <img src={img} />
+                <img src={img} alt={this.props.product.name} />
               </div>
             )})}
           </Carousel>

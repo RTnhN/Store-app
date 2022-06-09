@@ -6,9 +6,6 @@ import NameCard from "../Sub-Components/NameCard/NameCard";
 import '../../Styles/Home.css'
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
 
     return (
