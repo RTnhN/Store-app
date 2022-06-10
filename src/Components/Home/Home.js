@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Sub-Components/Header/Header";
 import Footer from "../Sub-Components/Footer/Footer";
-import NameCard from "../Sub-Components/NameCard/NameCard";
-import '../../Styles/Home.css'
+import HotProductCard from "../Sub-Components/HotProductCard/HotProductCard";
 
 class Home extends React.Component {
   render() {
@@ -17,7 +16,7 @@ class Home extends React.Component {
           <div id="homeHotProducts">
             {this.props.hotProducts.map((product) => {
               return (
-                <NameCard key={product.id} id={product.id} img={product.img[0]} imgAlt={product.name} name={product.name} />
+                <HotProductCard key={product.id} id={product.id} img={product.img[0]} imgAlt={product.name} name={product.name} />
               )
             })}
           </div>
