@@ -15,10 +15,10 @@ class Cart extends React.Component {
       />)), <hr />)
 
     return (
-      <div id="cart">
+      <div className="pageTopLevel" id="cart">
         <Header itemsInCart={this.props.itemsInCart} />
-        <div id="cartBody">
-          <h1 id="cartTitle">Cart</h1>
+        <div className='body' id="cartBody">
+          <h1 className="title" id="cartTitle">Cart</h1>
           <div id="cartTotalCheckout">
             <p id="cartTotalPrice">{`Total: ${this.props.cartTotal}`}</p>
             <button id="checkoutButton" onClick={()=>window.location = 'https://www.youtube.com/watch?v=iik25wqIuFo'} >Checkout</button>

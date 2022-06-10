@@ -6,10 +6,10 @@ import NamePriceCard  from '../Sub-Components/NamePriceCard/NamePriceCard';
 
 function Store(props){
     return(
-      <div id='store'>
+      <div className="pageTopLevel" id='store'>
          <Header itemsInCart={props.itemsInCart} />
-          <div id='storeBody'>
-            <h1 id='storeTitle'>Store</h1>
+          <div className='body' id='storeBody'>
+            <h1 className="title" id='storeTitle'>Store</h1>
             <div id='storeProducts'>
               {props.data.map((product) => { return (<NamePriceCard key={product.id} id={product.id} name={product.name} price={product.price} img={product.img[0]} imgAlt={product.name} /> )})}
             </div>

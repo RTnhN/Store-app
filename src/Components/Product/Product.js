@@ -3,7 +3,8 @@ import Header from "../Sub-Components/Header/Header";
 import Footer from "../Sub-Components/Footer/Footer";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import "../../Styles/Product.css"
+import "../../Styles/Product.css";
+
 
 class Product extends React.Component {
   componentWillUnmount() {
@@ -13,10 +14,10 @@ class Product extends React.Component {
 
   render() {
     return (
-      <div id="product" >
+      <div className="pageTopLevel" id="product" >
         <Header itemsInCart={this.props.itemsInCart} />
-        <div id="productBody">
-          <h1 id="productTitle">{this.props.product.name}</h1>
+        <div className='body' id="productBody">
+          <h1 className="title" id="productTitle">{this.props.product.name}</h1>
           <div id="productContent">
           <Carousel>
             {this.props.product.img.map((img, index) => {
