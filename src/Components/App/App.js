@@ -120,7 +120,7 @@ function MakeProduct(props) {
 
 function MakeCart(props) {
   const cartItems = props.cart.map(item => ({...props.data.find(product=>product.id === item.id), qty: item.qty}))
-  const cartTotal = "$"+Math.round(cartItems.reduce((acc, item) => acc + Number(item.price.slice(1)) * item.qty, 0)*100)/100
+  const cartTotal = "$" + String(cartItems.reduce((acc, item) => acc + Number(item.price.slice(1)) * item.qty, 0).toFixed(2));
   return <Cart cart={cartItems} removeFromCart={props.removeFromCart} incItem={props.incItem} decItem={props.decItem} itemsInCart={props.itemsInCart} cartTotal={cartTotal} />
 }
 
