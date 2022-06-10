@@ -4,7 +4,6 @@ import Footer from "../Sub-Components/Footer/Footer";
 import CartCard from "../Sub-Components/CartCard/CartCard";
 import "../../Styles/Cart.css";
 class Cart extends React.Component {
-
   render() {
     const cartItems = interleave(this.props.cart.map(product => (
       <CartCard key={product.id}
