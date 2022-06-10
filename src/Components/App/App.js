@@ -15,6 +15,15 @@ class App extends React.Component {
       qty: 1,
       cart: [],
       itemsInCart: 0
+    };
+    this.incQuantity = this.incQuantity.bind(this);
+    this.decQuantity = this.decQuantity.bind(this);
+    this.addToCart = this.addToCart.bind(this);
+    this.resetQuantity = this.resetQuantity.bind(this);
+    this.removeFromCart = this.removeFromCart.bind(this);
+    this.incItem = this.incItem.bind(this);
+    this.decItem = this.decItem.bind(this);
+    this.setQuantity = this.setQuantity.bind(this);
     this.updateItem = this.updateItem.bind(this);
   }
 
@@ -28,7 +37,7 @@ class App extends React.Component {
     if (this.state.qty > 1) {
       this.setState({
         qty: this.state.qty - 1
-      })
+      });
     }
   }
 
@@ -37,14 +46,14 @@ class App extends React.Component {
       const qty = event.target.value === '' ? "" : Number(event.target.value)
       this.setState({
         qty: qty === 0 ? 1 : qty
-      })
+      });
     }
   }
 
   resetQuantity() {
     this.setState({
       qty: 1
-    })
+    });
   }
 
   addToCart(event) {
@@ -123,18 +132,18 @@ class App extends React.Component {
           <Route path='contact' element={<Contact itemsInCart={this.state.itemsInCart} />} />
         </Routes>
       </BrowserRouter>
-    )
+    );
   }
 }
 
 function MakeProduct(props) {
   const { productId } = useParams();
-  const product = props.data.find(product => product.id === productId)
+  const product = props.data.find(product => product.id === productId);
   return <Product product={product} qty={props.qty} incQuantity={props.incQuantity} decQuantity={props.decQuantity} addToCart={props.addToCart} resetQuantity={props.resetQuantity} setQuantity={props.setQuantity} itemsInCart={props.itemsInCart} />
 }
 
 function MakeCart(props) {
-  const cartItems = props.cart.map(item => ({ ...props.data.find(product => product.id === item.id), qty: item.qty }))
+  const cartItems = props.cart.map(item => ({ ...props.data.find(product => product.id === item.id), qty: item.qty }));
   const cartTotal = "$" + String(cartItems.reduce((acc, item) => acc + Number(item.price.slice(1)) * item.qty, 0).toFixed(2));
   return <Cart cart={cartItems} removeFromCart={props.removeFromCart} incItem={props.incItem} decItem={props.decItem} itemsInCart={props.itemsInCart} cartTotal={cartTotal} updateItem={props.updateItem} />
 }
