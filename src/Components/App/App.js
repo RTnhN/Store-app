@@ -5,7 +5,7 @@ import Home from '../Home/Home';
 import Store from '../Store/Store';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
-// import Contact from '../Contact/Contact';
+import Contact from '../Contact/Contact';
 import data from './MOCK_DATA.js';
 
 class App extends React.Component {
@@ -105,8 +105,7 @@ class App extends React.Component {
           <Route path='/store/:productId' element={<MakeProduct data={data} qty={this.state.qty} incQuantity={this.incQuantity} decQuantity={this.decQuantity} addToCart={this.addToCart} resetQuantity={this.resetQuantity} itemsInCart={this.state.itemsInCart} />} />
           <Route path='store' element={<Store data={data} itemsInCart={this.state.itemsInCart} />} /> 
           <Route path='cart' element={<MakeCart cart={this.state.cart} data={data} removeFromCart={this.removeFromCart} incItem={this.incItem} decItem={this.decItem} itemsInCart={this.state.itemsInCart} />} />
-          {/* <Route path='contact' element={<Contact />} /> */}
-          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path='contact' element={<Contact itemsInCart={this.state.itemsInCart} />} />
         </Routes>
       </BrowserRouter>
     )
