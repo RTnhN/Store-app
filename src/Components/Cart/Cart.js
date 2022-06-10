@@ -11,7 +11,8 @@ class Cart extends React.Component {
         decQuantity={this.props.decItem}
         incQuantity={this.props.incItem}
         removeFromCart={this.props.removeFromCart}
-      />)), <hr />)
+        updateItem={this.props.updateItem}
+      />)), <hr/>)
 
     return (
       <div className="pageTopLevel" id="cart">

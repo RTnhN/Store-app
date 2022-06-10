@@ -5,3 +5,8 @@
   text-decoration: none;
   color: black;
 }
+.NamePriceCard>p:first-of-type{
+  margin-top: .5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}

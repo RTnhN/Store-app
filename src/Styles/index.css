@@ -52,4 +52,49 @@ code {
   margin-bottom: 2rem;
 }
 
+.qtyContainer{
+  grid-area: qtyContainer;
+  display:flex;
+  align-items: center;
+}
+
+.qtyContainer>button{
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.qtyContainer>button:first-of-type{
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem 0 0 1rem;
+}
+
+.qtyContainer>button:last-of-type{
+  border: none;
+  cursor: pointer;
+  border-radius:  0 1rem 1rem 0 ;
+}
+
+.qtyContainer>button:hover, .qtyContainer>button:focus{
+  background-color: hsl(0, 0%, 80%);
+  border: none;
+  outline: none;
+}
+
+.qtyContainer>input{
+  box-sizing: border-box;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border: none;
+}
+
+.qtyContainer>input:hover, .qtyContainer>input:focus{
+  background-color: hsl(0, 0%, 80%);
+  border: none;
+  outline: none;
+}
+
 
