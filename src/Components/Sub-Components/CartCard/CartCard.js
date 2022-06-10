@@ -9,9 +9,9 @@ return (
     <Link className="cartCardImg" to={`/store/${props.item.id}`}>
     <img  src={props.item.img[0]} alt={props.item.name} />
     </Link>
-    <Link className="cartCardTitle" to={`/store/${props.item.id}`}>
-    <h2>{props.item.name}</h2>
-    </Link>
+    <h2>
+      <Link className="cartCardTitle" to={`/store/${props.item.id}`}>{props.item.name}</Link>
+    </h2>
     <div className="cartCardQtyPriceContainer" data-qty={props.item.qty}> 
       <p className="cartCardPrice">{`Price: ${props.item.price}`}</p>
       <p className="cartCardQty" >{`Qty: ${props.item.qty}`}</p>
